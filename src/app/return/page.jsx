@@ -1,10 +1,8 @@
 import { Suspense } from "react";
-import ReturnUpdate from "./ReurnUpdate";
+import ReturUpdate from "./ReturnUpdate";
 
 export default function Page() {
   return (
-    <Suspense fallback={<div>Loading order...</div>}>
-      <ReturnUpdate />
-    </Suspense>
+      <ReturUpdate />
   );
 }
